@@ -565,7 +565,6 @@ contract BOLIX_token is ERC20, Ownable {
     // could be subject to a maximum transfer amount
     mapping (address => bool) public automatedMarketMakerPairs;
 
-    event UpdateUniswapV2Router(address indexed newAddress, address indexed oldAddress);
     event ExcludeFromFees(address indexed account, bool isExcluded);
     event SetAutomatedMarketMakerPair(address indexed pair, bool indexed value);
     event feeWalletUpdated(address indexed newWallet, address indexed oldWallet);
