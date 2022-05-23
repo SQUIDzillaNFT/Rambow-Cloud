@@ -1,0 +1,25 @@
+BCK-01: Centralised risks are to enable the project team more control over functionalities and in cases help
+provide a more secure token for investors in the event of exchange hacks, and Liquidity attacks. The risks are well understood
+and The project will continually protect its keys and integrate use of Multisignature wallets. 
+
+BCK-02: UpdateUniswapV2Router, AutoNukeLP and ManualNukeLP have been removed as it was not used.
+
+BCK-03: Community is aware of initial token distribution, presales and project team. It is always transaparent regarding this.
+The team will be observant of any security issues related to the private key at any time and will always work to prevent issues. 
+
+BCK-04: Aware of the risks of additional Lp tokens in to the Owner wallet. Team will protect these as they are generated through trading
+with use of multisignatures or a treasury in the future. 
+
+BCK-05: Aknowledged
+
+BCK-06: Aknowledged
+
+BCK-07: Removed this function. To keep it fair we will leave the initial transfer delay function to keep it a more fair for everyone launch.
+
+BCK-08: Aknowledged
+
+BCK-09: We emit some events that we feel are nessacasry. excludeFromFees is an event and emitted in the function.
+
+BCK-10: SetAutomatedMarketPair, setSnipers and delSnipers has been set to external with calldata as suggested.
+
+BCK-11: Aknowledged
