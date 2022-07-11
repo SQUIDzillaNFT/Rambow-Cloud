@@ -206,42 +206,14 @@ function MainComponent() {
       <div className="cyborx">
         <img className="cyborx-img" src={cyborx} />
       </div>
-      <div className={`main-section ` + (walletConnected ? "connected" : " ")}>
-        {
-          !isStarted && (
-            <div className="count-down">
-              <Countdown className="mt-5" date={new Date("2022-04-13T15:00:00+0000")} renderer={renderer} />
-            </div>
-          )
-        }
-        {
-          isStarted && !walletConnected && (
-            <>
-                <a className="btn btn-connect" onClick={() => connectWallet()}><img src={connectWalletImg} /></a>
-            </>
-          )
-        }
-        {
-          isStarted && walletConnected && (
-            <>
-              <div>
-                <div className="qty">
-                  <span className="minus bg-dark" onClick={(e) => setMintCount(mintCount > 1 ? mintCount - 1 : 1)}>-</span>
-                  <input type="number" className="count" name="qty" value={mintCount} disabled />
-                  <span className="plus bg-dark" onClick={(e) => setMintCount(mintCount < maxMintCount ? mintCount + 1 : maxMintCount)}>+</span>
-                </div>
-              </div>
-              <div className="mt-3">
-                <a className="btn btn-connect" onClick={() => mint(mintCount)} disabled={mintFlag}>{mintFlag ? <i className="fa fa-spinner fa-spin"></i> : <img style={{ width: 120 }} src={mintImg} />}</a>
-              </div>
-              <a className="btn btn-connect btn-disconnect" onClick={() => disconnectWallet()} ><img src={disconnectWalletImg} /></a>
-            </>
-          )
-        }
+      <div className="main-section">
+           <div className="mintFin"> Minting Finished!</div>
+           <div className="mintFin"> Buy your Rambow on </div>
+          <a className="osLink" href="https://opensea.io/collection/rambowcloud">Opensea.io</a>
+  
       </div>
 
       <div className="content">
-        <img src={footer} />
       </div>
     </div>
   );

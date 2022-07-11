@@ -504,3 +504,30 @@ input:disabled{
 .main-section img {
   width: 200px;
 }
+
+.mintOut {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: #0a0a0a;
+}
+
+.mintFin {
+  font-family: 'Bangers', cursive;
+  font-family: 'Press Start 2P', cursive;
+  font-size: xx-large;
+  padding: 10px;
+
+}
+
+.osLink {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #0800f3;
+  text-decoration: none;
+  font-size: x-large;
+  border-radius: 10px;
+  border-color: #0800f3;
+  border-style:groove;
+  border-width: 3px;
+  padding: 4px;
+  position: relative;
+
+}
